@@ -1,6 +1,6 @@
 # Visual Assets centralization for Pryv.io 
 
-This repository contains visual assets for the Pryv Lab platform. 
+This repository contains visual assets for the Open Pryv platform. 
 
 The file `index.json` is exposed to various applications and libraries by the [Service Information](https://api.pryv.com/reference/#service-info) API call under the `assets.definitions` property.
 
@@ -8,7 +8,7 @@ This structure is a proposal that can and should be extended depending on the ne
 
 ## Usage
 
-For the Pryv Lab platform, we deploy the assests using github gh-pages.
+For the Open Pryv.io platform, we deploy the assests using github gh-pages.
 
 The URL of the file `index.json` is declared in the Service Information configuration part of **Pryv.io**'s platform settings. 
 

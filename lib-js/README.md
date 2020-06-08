@@ -1,6 +1,6 @@
 # Visual Assets for lib-js
 
-This document is a sub-part of the [Pryv Lab assets](https://github.com/pryv/assets-pryv.me) documentation.
+This document is a sub-part of the [Open Pryv.io assets](https://github.com/pryv/assets-open-pryv.io) documentation.
 
 It describes the visual assets used by the [Pryv JavaScript Library](https://github.com/pryv/lib-js). 
 
