@@ -8,7 +8,7 @@ This structure is a proposal that can and should be extended depending on the ne
 
 ## Usage
 
-For the Open Pryv.io platform, we deploy the assests using github gh-pages.
+For the Open Pryv.io platform, we deploy the assets using github gh-pages.
 
 The URL of the file `index.json` is declared in the Service Information configuration part of **Pryv.io**'s platform settings. 
 
