@@ -45,7 +45,7 @@
 
 .pryv-access-btn-signin > .pryv-access-btn:first-child span {
   background-image: url(buttonSigninLogoOnly.png);
-  background-position: 0px 4px;
+  background-position: 0px -1px;
   background-repeat: no-repeat;
   text-indent: -90000px;
   display: block;
