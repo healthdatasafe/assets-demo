@@ -20,6 +20,7 @@
   vertical-align: middle;
   cursor: pointer;
   background-color: #f5f3f3;
+  background: linear-gradient(180deg,  #ffffff 0%,#d3d5d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   border: 1px solid #3a3a3a;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
