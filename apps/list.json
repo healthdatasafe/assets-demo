@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-05-27.1",
+  "version": "2026-05-29.1",
   "apps": [
     {
       "id": "bridge-mira",
@@ -33,7 +33,11 @@
           "initiate": {
             "method": "POST",
             "url": "https://bridge-mira.datasafe.dev/mira/resync",
-            "auth": "ApiEndpoint ${apiEndpoint}"
+            "auth": "ApiEndpoint ${apiEndpoint}",
+            "body": {
+              "returnUrl": "${returnUrl}"
+            },
+            "openUrlField": "openUrl"
           },
           "url": "${openUrl}",
           "embed": false
@@ -48,7 +52,8 @@
         "type": "api",
         "url": "https://bridge-mira.datasafe.dev/mira/lastSync",
         "auth": "ApiEndpoint ${apiEndpoint}",
-        "field": "lastSyncedAt"
+        "field": "lastSyncedAt",
+        "needsReauthField": "needsReauth"
       }
     },
     {
