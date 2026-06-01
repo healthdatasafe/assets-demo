@@ -4,6 +4,15 @@ Assets served at `https://healthdatasafe.github.io/assets-demo/` (GitHub Pages f
 referenced by `demo.datasafe.dev` service-info → `assets.definitions`. The `version` field in
 `apps/list.json` is the cache-buster consumers key on.
 
+## 2026-06-01.2
+
+- `apps/list.json`: **removed `bridge-ryb`** entry. RYB adapter is not yet
+  feature-complete (mucus, cervix, photos, custom_lines, and rule-engine
+  outputs are deferred under plan 68). Exposing it in the user-facing
+  catalog before those mappings ship would surface an incomplete import
+  to end users. Will re-add once plan 68 closes the deferred mappings.
+- Kept the bridge-femm icon fix from 2026-06-01.1 (broken base64 → inline SVG).
+
 ## 2026-06-01.1
 
 - `apps/list.json`: added **`bridge-ryb`** (Read Your Body) — 4th app entry, hook points to
