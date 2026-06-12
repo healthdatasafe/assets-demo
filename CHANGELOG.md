@@ -4,6 +4,12 @@ Assets served at `https://healthdatasafe.github.io/assets-demo/` (GitHub Pages f
 referenced by `demo.datasafe.dev` service-info → `assets.definitions`. The `version` field in
 `apps/list.json` is the cache-buster consumers key on.
 
+## 2026-06-12.1
+
+- `apps/list.json`: **bridge-healthkit icon** — replaced the ❤️ emoji placeholder
+  with the Apple Health app icon (128px PNG, base64 data URI, sourced from
+  Wikimedia Commons `Icon_-_Apple_Health.png`).
+
 ## 2026-06-01.2
 
 - `apps/list.json`: **removed `bridge-ryb`** entry. RYB adapter is not yet
