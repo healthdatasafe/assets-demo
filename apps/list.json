@@ -1,15 +1,10 @@
 {
   "schemaVersion": 1,
-  "version": "2026-07-21.1",
+  "version": "2026-08-28.1",
   "apps": [
     {
       "id": "bridge-mira",
       "name": "Mira",
-      "status": "paused",
-      "statusMessage": {
-        "en": "Coming back soon",
-        "fr": "Bientôt de retour"
-      },
       "description": {
         "en": "Fertility Tracker",
         "fr": "Tracker de fertilité"
@@ -23,7 +18,7 @@
       "hook": {
         "initiate": {
           "method": "POST",
-          "url": "https://bridge-mira.datasafe.dev/mira/initiate",
+          "url": "https://demo-bridge-mira.datasafe.dev/mira/initiate",
           "auth": "ApiEndpoint ${apiEndpoint}",
           "body": {
             "returnUrl": "${returnUrl}"
@@ -37,7 +32,7 @@
         "resync": {
           "initiate": {
             "method": "POST",
-            "url": "https://bridge-mira.datasafe.dev/mira/resync",
+            "url": "https://demo-bridge-mira.datasafe.dev/mira/resync",
             "auth": "ApiEndpoint ${apiEndpoint}",
             "body": {
               "returnUrl": "${returnUrl}"
@@ -49,13 +44,13 @@
         },
         "disconnect": {
           "method": "POST",
-          "url": "https://bridge-mira.datasafe.dev/mira/revoke",
+          "url": "https://demo-bridge-mira.datasafe.dev/mira/revoke",
           "auth": "ApiEndpoint ${apiEndpoint}"
         }
       },
       "lastSync": {
         "type": "api",
-        "url": "https://bridge-mira.datasafe.dev/mira/lastSync",
+        "url": "https://demo-bridge-mira.datasafe.dev/mira/lastSync",
         "auth": "ApiEndpoint ${apiEndpoint}",
         "field": "lastSyncedAt",
         "needsReauthField": "needsReauth",
