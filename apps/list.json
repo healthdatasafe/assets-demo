@@ -54,7 +54,8 @@
         "auth": "ApiEndpoint ${apiEndpoint}",
         "field": "lastSyncedAt",
         "needsReauthField": "needsReauth",
-        "faultyField": "faulty"
+        "faultyField": "faulty",
+        "connectedField": "connected"
       }
     },
     {
