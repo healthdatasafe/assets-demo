@@ -1,9 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2026-10-02.1",
-  "returnOrigins": [
-    "https://l.backloop.dev:4643"
-  ],
+  "version": "2026-10-02.2",
+  "returnOrigins": [],
   "apps": [
     {
       "id": "bridge-mira",
