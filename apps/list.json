@@ -1,9 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-10-03.2",
-  "returnOrigins": [
-    "https://demo-app.datasafe.dev"
-  ],
+  "version": "2026-10-03.3",
   "apps": [
     {
       "id": "bridge-mira",
