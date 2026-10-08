@@ -1,0 +1,63 @@
+{
+  "format": "hds-legal-manifest",
+  "formatVersion": 1,
+  "status": "DRAFT: versions and dates are set at publication (HDS plan 91)",
+  "documents": {
+    "terms": {
+      "kind": "contract",
+      "audience": "all",
+      "version": "1.0",
+      "materialSince": "1.0",
+      "effectiveDate": "2026-10-08",
+      "title": { "en": "Terms & Conditions", "fr": "Conditions générales" },
+      "statement": { "en": "I accept the Terms & Conditions.", "fr": "J'accepte les Conditions générales." },
+      "url": { "en": "https://www.healthdatasafe.org/en/terms/", "fr": "https://www.healthdatasafe.org/fr/terms/" }
+    },
+    "privacy": {
+      "kind": "notice",
+      "audience": "all",
+      "version": "1.0",
+      "materialSince": "1.0",
+      "effectiveDate": "2026-10-08",
+      "title": { "en": "Privacy Policy", "fr": "Politique de confidentialité" },
+      "statement": { "en": "I have read the Privacy Policy.", "fr": "J'ai lu la Politique de confidentialité." },
+      "url": { "en": "https://www.healthdatasafe.org/users/privacy/", "fr": "https://www.healthdatasafe.org/fr/users/privacy/" }
+    },
+    "health-processing": {
+      "kind": "consent",
+      "audience": "all",
+      "version": "1.0",
+      "materialSince": "1.0",
+      "effectiveDate": "2026-10-08",
+      "title": { "en": "Health-Data Processing Consent", "fr": "Consentement au traitement des données de santé" },
+      "statement": {
+        "en": "I explicitly consent to Health Data Safe holding and processing the health data I store, as described in this Health-Data Processing Consent.",
+        "fr": "Je consens explicitement à ce que Health Data Safe conserve et traite les données de santé que j'enregistre, comme décrit dans le présent Consentement au traitement des données de santé."
+      },
+      "url": { "en": "https://www.healthdatasafe.org/users/health-data-consent/", "fr": "https://www.healthdatasafe.org/fr/users/health-data-consent/" }
+    },
+    "us-chd-privacy": {
+      "kind": "notice",
+      "audience": "us",
+      "version": "1.0",
+      "materialSince": "1.0",
+      "effectiveDate": "2026-10-08",
+      "title": { "en": "US Consumer Health Data Privacy Policy", "fr": "Politique de confidentialité des données de santé des consommateurs américains" },
+      "statement": { "en": "I have read the US Consumer Health Data Privacy Policy.", "fr": "J'ai lu la Politique de confidentialité des données de santé des consommateurs américains." },
+      "url": { "en": "https://www.healthdatasafe.org/users/us-consumer-health-data/", "fr": "https://www.healthdatasafe.org/fr/users/us-consumer-health-data/" }
+    },
+    "us-chd-consent": {
+      "kind": "consent",
+      "audience": "us",
+      "version": "1.0",
+      "materialSince": "1.0",
+      "effectiveDate": "2026-10-08",
+      "title": { "en": "US Consumer Health Data Consent", "fr": "Consentement relatif aux données de santé des consommateurs américains" },
+      "statement": {
+        "en": "I consent to Health Data Safe collecting and processing my consumer health data as described in the US Consumer Health Data Privacy Policy.",
+        "fr": "Je consens à ce que Health Data Safe collecte et traite mes données de santé de consommateur comme décrit dans la Politique de confidentialité des données de santé des consommateurs américains."
+      },
+      "url": { "en": "https://www.healthdatasafe.org/users/us-consumer-health-data-consent/", "fr": "https://www.healthdatasafe.org/fr/users/us-consumer-health-data-consent/" }
+    }
+  }
+}
