@@ -4,6 +4,12 @@ Assets served at `https://healthdatasafe.github.io/assets-demo/` (GitHub Pages f
 referenced by `demo.datasafe.dev` service-info → `assets.definitions`. The `version` field in
 `apps/list.json` is the cache-buster consumers key on.
 
+## 2026-11-06.1
+
+- `apps/list.json` new `partnerApps` entry **`app-hds-support`** (the HDS support console, `grant: access`): a name
+  and description, no `urls`, so the account app's sign-in and consent screens say "HDS Support Console" instead of
+  the raw appId, and it never shows in a patient's Partner apps. (`_plans/BUGS.md` B-2026-11-02-17)
+
 ## 2026-11-05.1
 
 - `apps/list.json` `partnerApps` **vouch for the implementers' manifests** (data-model APP-DESCRIPTION.md):
