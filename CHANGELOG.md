@@ -4,6 +4,14 @@ Assets served at `https://healthdatasafe.github.io/assets-demo/` (GitHub Pages f
 referenced by `demo.datasafe.dev` service-info → `assets.definitions`. The `version` field in
 `apps/list.json` is the cache-buster consumers key on.
 
+## 2026-11-17.1
+
+- `legal/manifest.json`: `documents.privacy` gains the optional `sections: { "hosting": "hosting" }`, a stable key
+  mapped to the fragment id of the Privacy Policy's hosting-location section, the same on every language's page
+  (`<a id="hosting">` on §3). Additive, `formatVersion` stays 1; a consumer links to `url#hosting` when it is
+  present, else to the page top. Mirrors the website's `public/legal/manifest.json` (`_plans/BUGS.md`
+  B-2026-10-27-29).
+
 ## 2026-11-06.1
 
 - `apps/list.json` new `partnerApps` entry **`app-hds-support`** (the HDS support console, `grant: access`): a name
