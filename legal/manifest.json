@@ -21,7 +21,8 @@
       "effectiveDate": "2026-10-08",
       "title": { "en": "Privacy Policy", "fr": "Politique de confidentialité" },
       "statement": { "en": "I have read the Privacy Policy.", "fr": "J'ai lu la Politique de confidentialité." },
-      "url": { "en": "https://www.healthdatasafe.org/users/privacy/", "fr": "https://www.healthdatasafe.org/fr/users/privacy/" }
+      "url": { "en": "https://www.healthdatasafe.org/users/privacy/", "fr": "https://www.healthdatasafe.org/fr/users/privacy/" },
+      "sections": { "hosting": "hosting" }
     },
     "health-processing": {
       "kind": "consent",
