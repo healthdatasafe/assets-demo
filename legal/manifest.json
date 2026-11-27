@@ -63,15 +63,15 @@
     "research": {
       "kind": "choice",
       "audience": "all",
-      "version": "1.0",
-      "materialSince": "1.0",
-      "effectiveDate": "2026-11-26",
-      "title": { "en": "Health Data Safe research", "fr": "Recherche Health Data Safe" },
+      "version": "1.1",
+      "materialSince": "1.1",
+      "effectiveDate": "2026-11-27",
+      "title": { "en": "Research invitations", "fr": "Invitations à la recherche" },
       "statement": {
-        "en": "I would like Health Data Safe to send me invitations to research studies and eligibility tests, at most 2 a month. Saying yes shares none of my health data, and taking part in a study is always a separate consent.",
-        "fr": "Je souhaite que Health Data Safe m'envoie des invitations à des études de recherche et à des tests d'éligibilité, au plus 2 par mois. Répondre oui ne partage aucune de mes données de santé, et participer à une étude reste toujours un consentement distinct."
+        "en": "I would like Health Data Safe to send me invitations to research studies and eligibility tests. Saying yes only shares my email and the titles of the topics I select with Health Data Safe, no other data. Taking part in a study is always a separate consent.",
+        "fr": "Je souhaite que Health Data Safe m'envoie des invitations à des études de recherche et à des tests d'éligibilité. Répondre oui ne partage avec Health Data Safe que mon adresse e-mail et les titres des sujets que je choisis, aucune autre donnée. Participer à une étude reste toujours un consentement distinct."
       },
-      "url": { "en": "https://www.healthdatasafe.org/users/privacy/", "fr": "https://www.healthdatasafe.org/fr/users/privacy/" }
+      "url": { "en": "https://www.healthdatasafe.org/users/research-invitations/", "fr": "https://www.healthdatasafe.org/fr/users/research-invitations/" }
     }
   }
 }
