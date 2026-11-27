@@ -4,6 +4,13 @@ Assets served at `https://healthdatasafe.github.io/assets-demo/` (GitHub Pages f
 referenced by `demo.datasafe.dev` service-info → `assets.definitions`. The `version` field in
 `apps/list.json` is the cache-buster consumers key on.
 
+## 2026-11-27.1
+
+- `legal/manifest.json`: `privacy`, `health-processing` and `research` gain `es`, `it` and `pt-BR` in `title` and
+  `statement`, so the account app's sign-up page and Privacy & Consents tab no longer show these three lines in
+  English for those languages. Translated from the English (cross-checked with the French); no official translation
+  exists yet. `url` stays EN/FR (no pages in those languages). Demo only: the website's manifest waits for the DPO.
+
 ## 2026-11-17.1
 
 - `legal/manifest.json`: `documents.privacy` gains the optional `sections: { "hosting": "hosting" }`, a stable key
