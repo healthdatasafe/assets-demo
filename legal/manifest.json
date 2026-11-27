@@ -19,8 +19,20 @@
       "version": "1.0",
       "materialSince": "1.0",
       "effectiveDate": "2026-10-08",
-      "title": { "en": "Privacy Policy", "fr": "Politique de confidentialité" },
-      "statement": { "en": "I have read the Privacy Policy.", "fr": "J'ai lu la Politique de confidentialité." },
+      "title": {
+        "en": "Privacy Policy",
+        "fr": "Politique de confidentialité",
+        "es": "Política de Privacidad",
+        "it": "Informativa sulla privacy",
+        "pt-BR": "Política de Privacidade"
+      },
+      "statement": {
+        "en": "I have read the Privacy Policy.",
+        "fr": "J'ai lu la Politique de confidentialité.",
+        "es": "He leído la Política de Privacidad.",
+        "it": "Ho letto l'Informativa sulla privacy.",
+        "pt-BR": "Li a Política de Privacidade."
+      },
       "url": { "en": "https://www.healthdatasafe.org/users/privacy/", "fr": "https://www.healthdatasafe.org/fr/users/privacy/" },
       "sections": { "hosting": "hosting" }
     },
@@ -30,10 +42,19 @@
       "version": "1.0",
       "materialSince": "1.0",
       "effectiveDate": "2026-10-08",
-      "title": { "en": "Health-Data Processing Consent", "fr": "Consentement au traitement des données de santé" },
+      "title": {
+        "en": "Health-Data Processing Consent",
+        "fr": "Consentement au traitement des données de santé",
+        "es": "Consentimiento para el Tratamiento de Datos de Salud",
+        "it": "Consenso al trattamento dei dati sanitari",
+        "pt-BR": "Consentimento para o Tratamento de Dados de Saúde"
+      },
       "statement": {
         "en": "I explicitly consent to Health Data Safe holding and processing the health data I store, as described in this Health-Data Processing Consent.",
-        "fr": "Je consens explicitement à ce que Health Data Safe conserve et traite les données de santé que j'enregistre, comme décrit dans le présent Consentement au traitement des données de santé."
+        "fr": "Je consens explicitement à ce que Health Data Safe conserve et traite les données de santé que j'enregistre, comme décrit dans le présent Consentement au traitement des données de santé.",
+        "es": "Consiento explícitamente que Health Data Safe conserve y trate los datos de salud que yo almacene, tal como se describe en este Consentimiento para el Tratamiento de Datos de Salud.",
+        "it": "Acconsento esplicitamente a che Health Data Safe conservi e tratti i dati sanitari che registro, come descritto nel presente Consenso al trattamento dei dati sanitari.",
+        "pt-BR": "Consinto explicitamente que a Health Data Safe mantenha e trate os dados de saúde que eu armazenar, conforme descrito neste Consentimento para o Tratamento de Dados de Saúde."
       },
       "url": { "en": "https://www.healthdatasafe.org/users/health-data-consent/", "fr": "https://www.healthdatasafe.org/fr/users/health-data-consent/" }
     },
@@ -66,10 +87,19 @@
       "version": "1.1",
       "materialSince": "1.1",
       "effectiveDate": "2026-11-27",
-      "title": { "en": "Research invitations", "fr": "Invitations à la recherche" },
+      "title": {
+        "en": "Research invitations",
+        "fr": "Invitations à la recherche",
+        "es": "Invitaciones a la investigación",
+        "it": "Inviti alla ricerca",
+        "pt-BR": "Convites para pesquisas"
+      },
       "statement": {
         "en": "I would like Health Data Safe to send me invitations to research studies and eligibility tests. Saying yes only shares my email and the titles of the topics I select with Health Data Safe, no other data. Taking part in a study is always a separate consent.",
-        "fr": "Je souhaite que Health Data Safe m'envoie des invitations à des études de recherche et à des tests d'éligibilité. Répondre oui ne partage avec Health Data Safe que mon adresse e-mail et les titres des sujets que je choisis, aucune autre donnée. Participer à une étude reste toujours un consentement distinct."
+        "fr": "Je souhaite que Health Data Safe m'envoie des invitations à des études de recherche et à des tests d'éligibilité. Répondre oui ne partage avec Health Data Safe que mon adresse e-mail et les titres des sujets que je choisis, aucune autre donnée. Participer à une étude reste toujours un consentement distinct.",
+        "es": "Deseo que Health Data Safe me envíe invitaciones a estudios de investigación y a pruebas de elegibilidad. Responder que sí solo comparte con Health Data Safe mi correo electrónico y los títulos de los temas que seleccione, ningún otro dato. Participar en un estudio siempre es un consentimiento aparte.",
+        "it": "Desidero che Health Data Safe mi invii inviti a studi di ricerca e a test di idoneità. Rispondere sì condivide con Health Data Safe solo il mio indirizzo e-mail e i titoli degli argomenti che seleziono, nessun altro dato. Partecipare a uno studio è sempre un consenso separato.",
+        "pt-BR": "Gostaria que a Health Data Safe me enviasse convites para estudos de pesquisa e testes de elegibilidade. Responder sim compartilha com a Health Data Safe apenas meu e-mail e os títulos dos temas que eu selecionar, nenhum outro dado. Participar de um estudo é sempre um consentimento separado."
       },
       "url": { "en": "https://www.healthdatasafe.org/users/research-invitations/", "fr": "https://www.healthdatasafe.org/fr/users/research-invitations/" }
     }
